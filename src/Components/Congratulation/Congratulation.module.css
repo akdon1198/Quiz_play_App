@@ -1,0 +1,39 @@
+.maincontainer{
+    width: 100vw;
+    height: 100vh;
+    background-color: #041325;
+    display: flex;
+    color: #474444;
+}
+
+.congratscard{
+    width: 80%;
+    height: 80%;
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.15);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.congratscard h1 span{
+    color: #60B84B;
+}
+
+.congratscard h1{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.congratscard img{
+    width: 15rem;
+    height: 15rem;
+}
+@media (min-width:40em){
+    .congratscard h1{
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,1 @@
+export const commonapiurl = "http://localhost:5000/api/quiz/"

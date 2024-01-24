@@ -1,0 +1,97 @@
+.quizplaycard{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    border-radius: 15px;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.15);
+    color: #474444;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.quizplaycard .timerquestionnumber{
+    display: flex;
+    width: 80%;
+    height: 10%;
+    justify-content: space-around;
+}
+
+.quizplaycard .timerquestionnumber h3:last-child{
+    color : #D60000
+}
+
+.quizplaycard > h2{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.selectedoption{
+    border-radius: 10px;
+    border: 5px solid #5076FF;
+    background: #F0F0F0;
+}
+    
+.quizplaycard .optioncards{
+    width: 60%;
+    height: 55%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.quizplaycard .optioncards .optioncard{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 10px;
+    background: #F0F0F0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    position: relative;
+}
+
+.quizplaycard .optioncards .optioncard > img{
+    width: 100%;
+    height: 100%;
+}
+
+.quizplaycard .optioncards .optioncard > p{
+    position: absolute;
+}
+.quizplaycard button{
+    border-radius: 10px;
+    background: #60B84B;
+    color: #FFF;
+    font-size: inherit;
+    font-family: inherit;
+    padding: 8px 4rem;
+    border: none;
+    cursor: pointer;
+}
+
+@media (min-width:40em){
+    .quizplaycard{
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    
+    .quizplaycard > h2{
+        text-align: center;
+        font-size: 2rem;
+    }
+                
+    .quizplaycard .optioncards .optioncard{
+        width: 20rem;
+        height: 30%;
+    }
+    
+    .quizplaycard button{
+        padding: 1rem 10rem;
+    }
+}
