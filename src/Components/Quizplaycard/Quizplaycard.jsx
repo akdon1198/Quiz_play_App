@@ -15,6 +15,7 @@ const Quizplaycard = ({setshowcongratspage}) => {
   const [selectedquestion, setselectedquestion] = useState(-1);
   const [timeoutarr, settimeoutarr] = useState([])
   const [showcongrats, setshowcongrats] = useState(false)
+  console.log(quiz);
   let interval = ""
   if(showcongrats){
     axios.patch(commonapiurl+"updatequiz/" + quizid, quiz)
@@ -142,7 +143,8 @@ const Quizplaycard = ({setshowcongratspage}) => {
                       <img src={optionobj.img} alt="" />
                       <p>{optionobj.text}</p>
                     </>
-                  )}
+                  )
+                  }
                 </div>
               )
             );
