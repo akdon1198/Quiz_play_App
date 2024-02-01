@@ -1,1 +1,1 @@
-export const commonapiurl = "http://localhost:5000/api/quiz/"
+export const commonapiurl = "https://quiz-backend-api-bn0x.onrender.com/api/quiz/"
